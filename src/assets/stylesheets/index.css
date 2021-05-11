@@ -1,0 +1,84 @@
+/* ./assets/stylesheets/index.css */
+
+*{
+    outline: none;
+}
+
+
+/* react-datepicker */
+.react-datepicker{
+    border: 3px solid #D0CCC6;
+    box-sizing: border-box;
+    background-color: #F8F6F1;
+    border-radius: 10px;
+}
+
+.react-datepicker__header{
+    background-color: unset;
+    border-bottom: unset;
+}
+
+.react-datepicker__day-name{
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 16px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #AAAAAA;
+    margin: 0.166rem 0.46rem 0.7rem;
+}
+
+.react-datepicker__day{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.22px;
+    color: #8F8F8F;
+    margin: 6px 5px;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    border-radius: 50%;
+}
+
+.react-datepicker__day--selected:hover, .react-datepicker__day--in-selecting-range:hover, .react-datepicker__day--in-range:hover, .react-datepicker__month-text--selected:hover, .react-datepicker__month-text--in-selecting-range:hover, .react-datepicker__month-text--in-range:hover, .react-datepicker__quarter-text--selected:hover, .react-datepicker__quarter-text--in-selecting-range:hover, .react-datepicker__quarter-text--in-range:hover, .react-datepicker__year-text--selected:hover, .react-datepicker__year-text--in-selecting-range:hover, .react-datepicker__year-text--in-range:hover{
+    background: #239C6D;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.react-datepicker__day--selected{
+    background: #239C6D;
+    color: #fff;
+}
+
+.react-datepicker__day:hover, .react-datepicker__month-text:hover, .react-datepicker__quarter-text:hover, .react-datepicker__year-text:hover{
+    border-radius: 50%;
+}
+
+.react-datepicker__day--keyboard-selected, .react-datepicker__month-text--keyboard-selected, .react-datepicker__quarter-text--keyboard-selected, .react-datepicker__year-text--keyboard-selected{
+    background: #239C6D;
+    color: #fff;
+}
+
+.react-datepicker__month{
+    margin: 0 1rem 1rem;
+}
+
+.react-datepicker__header{
+    padding-top: 22px;
+}
+
+.react-datepicker__current-month{
+    margin-bottom: 12px;
+}
+
+.react-datepicker__navigation--previous {
+    left: 18px;
+    top: 26px;
+}
+
+.react-datepicker__navigation--next {
+    right: 18px;
+    top: 26px;
+}

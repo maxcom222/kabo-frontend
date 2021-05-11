@@ -1,0 +1,14 @@
+/* ./assets/stylesheets/tailwind.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.w-accountdetail-card {
+    max-width: 552px;
+    min-width: 343px;
+}
+
+.button-border {
+    border: 1px solid #239C6D;
+}
